@@ -19,4 +19,23 @@ float variable;
 float variable=3.14;
 // Iniciando en un valor n
 ```
-Además, existen palabras que son *reservadas* dentro de los lenguajes para indicar una ampliación del alacance de estas variables, como las palabras *long o double*. 
+3. Variable *char*
+- Esta variable es peculiar, puesto que puede tomar valores **alfanuméricos** como *Hola123* o *98OPLk!*, como se puede ver, su uso puede ser multifacético y útil en nuestro código.
+```C
+char variable;
+// O si se desea inicializarla con un valor:
+char variable = 'holamun';
+// Iniciando en un caracter o caracteres.
+```
+
+Además, existen palabras que son *reservadas* dentro de los lenguajes para indicar una ampliación del alacance de estas variables, como las palabras *long o double*, y el caso especial de *void*, del cual hablaremos más adelante. 
+
+## MÁSCARAS DE VARIABLES
+
+En C, es necesario que al momento de pedir un valor para luego almacenarlo en una variable, se necesite de una *máscara* que no es mas que una notación que el lenguaje necesita para entender lo que pides:
+```C
+int numero;
+printf("Ingresa un número");
+scanf("%d", &numero);
+```
+Como se puede ver, se pide dentro de las comillas la máscara, para los int es %d, para char es %c y para float %f.
