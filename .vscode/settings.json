@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "EJERCICIO-IF.C": "cpp"
+        "EJERCICIO-IF.C": "cpp",
+        "EJERCICIO-SWITCH-CASE.C": "cpp"
     }
 }

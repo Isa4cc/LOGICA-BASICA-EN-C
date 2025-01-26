@@ -49,3 +49,31 @@ Cabe aclarar que sí es posible seguir iterando más condiciones si es así nece
 
 > No te preocupes si no te queda claro cómo funciona, ter dejo unos ejemplos de cómo funciona el if-else :D
 > Se ubican en esta misma carpeta los ejercicios!!
+
+## Sentencia *switch-case-break*
+
+A pesar de ser una sentencia condicional, tanto su estructura como su uso es diferente al de la sentencia if-else, puesto que
+para que su estructura contiene un caso fijo de opciones a escoger, en función de una variable.
+Su sintaxis es la siguiente:
+
+```C
+switch(opcion){
+    case 1:
+        //Acción 1
+    break;
+    case 2:
+        //Acción 2
+    break;
+    case n:
+        //Acción n
+    break;
+    default:
+        //Acción si no se cumple ningún caso antes.
+    break;
+}
+```
+Esta estructura de control se debe usar cuando:
+* Se conoce todos los casos.
+* Estos casos están definidos.
+
+>Igualmente, si no te ha quedado claro aún, te pongo un pequeño ejemplo para que puedas entender mejor ;)
